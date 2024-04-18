@@ -36,11 +36,16 @@
 
 - Step 1
   - Select You Are Voter Or Admin
+  
+    
+    ![IMG_20240418_100443.jpg](IMG_20240418_100659.jpg)
 
 - Step 2
   - If You Are Admin . You Can Add New Voter And View The Result Of Election.
-    
+     ![IMG_20240418_100443.jpg](IMG_20240418_100443.jpg)
+     ![IMG_20240418_100443.jpg](IMG_20240418_100720.jpg)
 - Step 3
   - If You Are Voter. You Can Vote And Also You Can Able To See Result Of Election.
+    ![IMG_20240418_100443.jpg](IMG_20240418_100623.jpg)
  
 
