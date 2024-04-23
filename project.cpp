@@ -6,7 +6,7 @@
 #include <sstream> // For string stream operations
 #include <fstream> // For file stream operations
 #include <openssl/sha.h> // For SHA256 hashing
-#include <iomanip> // For formatting output
+
 
 // Use the standard namespace
 using namespace std;
@@ -14,7 +14,7 @@ using namespace std;
 // Global variables to store the vote counts and total votes
 int choice, total = 0, aap = 0, bjp = 0, con = 0;
 
-// Function prototypes
+// Function declaration
 int viewresult();
 int main();
 
@@ -35,7 +35,7 @@ private:
         SHA256_CTX sha256; // SHA256 context
         SHA256_Init(&sha256); // Initialize the SHA256 context
         SHA256_Update(&sha256, ss.str().c_str(), ss.str().length()); // Update the context with the block information
-        SHA256_Final(hash, &sha256); // Finalize the hash
+        SHA256_Final(hash, &sha256); // Final the hash
         
         stringstream hash_ss; // String stream to format the hash
         for (int i = 0; i < SHA256_DIGEST_LENGTH; i++) {
